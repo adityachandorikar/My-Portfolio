@@ -1,0 +1,65 @@
+<h1 class="text-center">My Projects</h1>
+<div class="row row-cols-1 row-cols-md-3 g-4 my-2 ">
+    <div class="col">
+    <div class="card border-success mb-3 h-100" style="max-width: 18rem;" *ngFor="let i of project1">
+        <div class="card-header bg-transparent border-success"><b>Title:-</b>{{i.title}}</div>
+        <div class="card-body text-success">
+          <h5 class="card-title"><b>Languages Used:-</b>{{i.languages}}</h5>
+          <p class="card-text"> <b>Description:-</b> {{i.desc}}</p>
+        </div>
+        <div class="card-footer bg-transparent border-success"><a href="https://github.com/adityachandorikar">Project link</a></div>
+    </div>
+</div>
+<div class="col">
+    <div class="card border-success mb-3 h-100" style="max-width: 18rem;" *ngFor="let i of project2">
+        <div class="card-header bg-transparent border-success"><b>Title:-</b>{{i.title}}</div>
+        <div class="card-body text-success">
+          <h5 class="card-title"><b>Languages Used:-</b>{{i.languages}}</h5>
+          <p class="card-text"> <b>Description:-</b> {{i.desc}}</p>
+        </div>
+        <div class="card-footer bg-transparent border-success"><a href="https://github.com/adityachandorikar">Project link</a></div>
+    </div>
+</div>  
+    <div class="col">
+        <div class="card border-success mb-3 h-100" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">Header</div>
+          <div class="card-body text-success">
+            <h5 class="card-title">Success card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <div class="card-footer bg-transparent border-success"><a href="https://github.com/adityachandorikar">Project link</a></div>
+        </div>
+      </div>  
+</div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card border-danger mb-3 h-100 " style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">project 4</div>
+          <div class="card-body text-success">
+            <h5 class="card-title">Coming soon...</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-footer bg-transparent border-success"><a class="nav-link disabled"  href="https://github.com/adityachandorikar">Project link</a></div>
+        </div>
+      </div>   
+      <div class="col">
+        <div class="card border-danger mb-3 h-100" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">Project 5</div>
+          <div class="card-body text-success">
+            <h5 class="card-title">Coming soon...</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-footer bg-transparent border-success"><a class="nav-link disabled"  href="https://github.com/adityachandorikar">Project link</a></div>
+        </div>
+      </div>  
+      <div class="col">
+        <div class="card border-danger mb-3 h-100" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">Project 6</div>
+          <div class="card-body text-success">
+            <h5 class="card-title">Coming soon...</h5>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-footer bg-transparent border-success"><a class="nav-link disabled"   href="https://github.com/adityachandorikar">Project link</a></div>
+        </div>
+      </div>    
+</div>

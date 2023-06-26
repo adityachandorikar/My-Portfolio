@@ -1,0 +1,59 @@
+{
+  "edudetails": [
+    {
+      "id": "1",
+      "DegreeName": "Msc Computer Science",
+      "College": "College of computer science and information technology, Latur",
+      "percentage": "91%",
+      "yop": "2022"
+    },
+    {
+      "id": "2",
+      "DegreeName": "Bsc Computer Science",
+      "College": "Modern college of arts science and commerce, shivajinagar pune",
+      "percentage": "69%",
+      "yop": "2020"
+    },
+    {
+      "id": "3",
+      "DegreeName": "HSC (CBSE BOARD)",
+      "College": "Jawahar Navodaya Vidyalaya ,Tuljapur Dharashiv",
+      "percentage": "63%",
+      "yop": "2016"
+    },
+    {
+      "id": "4",
+      "DegreeName": "SSC (CBSE BOARD)",
+      "College": "Terna Public School, Dharashiv ",
+      "percentage": "89%",
+      "yop": "2014"
+    }
+  ],
+  "basic-details": [
+    {
+      "name": "Aditya Chandorikar",
+      "info": "Full Stack MEAN/MERN Developer ",
+      "info1": "Msc (Computer science)",
+      "address": "Pune Maharashtra",
+      "contact": "Mobile No:-8408093105",
+      "email": "adityavivekchandorikar@gmail.com",
+      "dob": " Date of Birth:-04-08-1998"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "E-commerce Website ",
+      "languages": "HTML5, CSS, JavaScript, Bootstrap",
+      "desc": "The Project is a E-commerce Website Named as (ShopLocal) made by using Bootstrap. The site has registration and signup form which will get consumers details. It has a responsive navigation bar with dropdown menu. It has a carousel which shows the products that are on special discount. It also has few cards which shows different variety of products. The site also has a footer which shows the essential details about website",
+      "link": "http//"
+    },
+    {
+      "title": "A Blog using Angular",
+      "languages": "Angular,Bootstrap,Typescript,Javascript,CSS,HTML,JSON Server",
+      "desc": "The Project is a blog website made by using Angular, Bootstrap, HTML and CSS. The site has registration and login form which will get consumers details. In this site user can see different blogs uploaded by different persons and can read them. In styling perspective, the project has a responsive navigation bar, a carousel. It also has few cards which shows different types of blog topics. The site also has a footer which shows the essential details about website. In this project I have implemented the angular for the purpose of CRUD operations, verification, routing, data-binding etc. For database server JSON server is used",
+      "link": "https://github.com/adityachandorikar",
+      "id": "2P-6VGY"
+    }
+  ]
+}

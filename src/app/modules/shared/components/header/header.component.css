@@ -1,0 +1,10 @@
+ #aboutme{
+    display: none;
+}
+
+@media(max-width:991px)
+{
+    #aboutme{
+        display: block;
+    }
+}

@@ -1,0 +1,62 @@
+<form #myform="ngForm" (Submit)="editdata(myform.value)" >
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label>Project Title</label>
+                <input type="text" class="form-control" name="pname" #pname="ngModel" placeholder="Enter Title of Project" ngModel required>
+             <div style="color: red;" *ngIf="pname.invalid && pname.touched">
+               <div *ngIf="pname.errors?.['required']">
+               Title is required *</div>
+            </div> 
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label >Languages used</label>
+                <input type="text" name="langused" #langused="ngModel"  class="form-control" ngModel required>
+                <div  style="color: red;" *ngIf="langused.invalid && langused.touched">
+                <div *ngIf="langused.errors?.['required']">
+                  Please Select Programming Languages used in your project*
+                </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+       
+    <div class="form-group">
+        <label>Project Description</label>
+        <textarea class="form-control" name="pdesc" #pdesc="ngModel"  rows="5" ngModel required placeholder="Explain your project in Brief">
+        </textarea>
+        <div style="color: red;" *ngIf="pdesc.invalid && pdesc.touched">
+        <div *ngIf="pdesc.errors?.['required']">
+            Project Description Cannot be empty
+        </div>
+        </div>
+      </div>
+            
+        </div>
+    </div>
+ 
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label >Project Git Hub Link</label>
+                <input type="text" class="form-control" name="gitlink" #gitlink="ngModel" ngModel required>
+                <div style="color: red;" *ngIf="gitlink.invalid && gitlink.touched">
+                 <div *ngIf="gitlink.errors?.['required']">
+                    GitHub Link is required*
+                 </div>
+                </div>
+              </div>  
+        </div>
+    </div>
+    <div class="row">
+    
+ <button type="submit" class="btn btn-primary" [disabled]="myform.invalid">Submit</button>
+        </div>
+  </form>

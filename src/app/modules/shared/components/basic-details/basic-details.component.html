@@ -1,0 +1,19 @@
+<div class="card"  style="max-width: 18rem;"*ngFor="let b of myrecords">
+    <img [src]="imgpath" height="150" width="50" class="card-img-top" alt="img not found">
+    <div class="card-body">
+      <h5 class="card-title">{{b.name}}</h5>
+      <p class="card-text">{{b.info1}}</p>
+      <p class="card-text">{{b.info}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">{{b.contact}}</li>
+      <li class="list-group-item">{{b.email}}</li>
+      <li class="list-group-item">{{b.dob}}</li>
+      <li class="list-group-item">{{b.address}}</li>
+
+    </ul>
+    <div class="card-body">
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div>

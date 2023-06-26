@@ -1,0 +1,26 @@
+<div class="card">
+    <div class="card-header">
+<h1 class="text-center my-2 "><u> My Educational Details</u></h1>
+</div>
+<div class="card-body">
+<table class="table my-2 table-success ">
+    <thead class="text-center table-dark">
+      <tr>
+        <th scope="col">Degree Name</th>
+        <th scope="col">College</th>
+        <th scope="col">Percentage</th>
+        <th scope="col">Year of Passing</th>
+      </tr>
+    </thead>
+    <tbody>
+   <!-- {{pgdetails.DegreeName}} -->
+      <tr *ngFor="let i of edudetails">
+        <th scope="row">{{i.DegreeName}}</th>
+        <td>{{i.College}}</td>
+        <td>{{i.percentage}}</td>
+        <td>{{i.yop}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>

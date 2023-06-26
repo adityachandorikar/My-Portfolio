@@ -1,0 +1,21 @@
+<h1 class="text-center">My Projects</h1>
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <button class="btn btn-success me-md-2" type="button" routerLink="add-blog">Add Blog</button>
+</div>
+
+<!-- ======================================================================== -->
+<div class="row row-cols-1 row-cols-md-1 g-4 my-2 ">
+    <div class="card border-success mb-3 h-100   " style="max-width: 40rem;" *ngFor="let i of projects">
+        <div class="card-header bg-transparent border-success"><h3>{{i.title}}</h3> <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button class="btn btn-warning me-md-2" type="button" routerLink="edit-blog">Edit Blog</button>
+          <button class="btn btn-danger me-md-2" type="button" (click)="delete(i.id)">Delete Blog</button>
+
+        </div></div>
+        <div class="card-body text-success">
+          <h5 class="card-title"><b>Languages Used:-</b>{{i.languages}}</h5>
+          <p class="card-text"> <b>Description:-</b> {{i.desc}}</p>
+        </div>
+        <div class="card-footer bg-transparent border-success"><a href="https://github.com/adityachandorikar">Project link</a></div>
+    </div>
+</div>
+
